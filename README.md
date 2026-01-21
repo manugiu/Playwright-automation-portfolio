@@ -1,6 +1,6 @@
 # 🎭 Playwright E2E Automation Framework
 
-![Playwright Tests](https://github.com/YOUR-USERNAME/playwright-automation-portfolio/actions/workflows/playwright.yml/badge.svg)
+![Playwright Tests](https://github.com/manugiu/playwright-automation-portfolio/actions/workflows/playwright.yml/badge.svg)
 
 A modern end-to-end testing framework built with Playwright and TypeScript, demonstrating professional test automation practices using the Page Object Model design pattern.
 
@@ -35,7 +35,7 @@ playwright-automation-portfolio/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/YOUR-USERNAME/playwright-automation-portfolio.git
+git clone https://github.com/manugiu/playwright-automation-portfolio.git
 cd playwright-automation-portfolio
 ```
 
@@ -123,7 +123,7 @@ This project includes automated testing via **GitHub Actions**:
 **Enzo Manuel Giuggiolini**  
 - LinkedIn: [https://www.linkedin.com/in/enzo-manuel-giuggiolini/]
 - Email: manuelgiuggiolini@gmail.com
-- GitHub: [https://github.com/YOUR-USERNAME]
+- GitHub: [https://github.com/manugiu]
 
 ---
 
