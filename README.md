@@ -1,6 +1,6 @@
 # 🎭 Playwright E2E Automation Framework
 
-![Playwright Tests](https://github.com/manugiu/playwright-automation-portfolio/actions/workflows/playwright.yml/badge.svg)
+[![Playwright Tests](https://github.com/manugiu/Playwright-automation-portfolio/actions/workflows/playwright.yml/badge.svg)](https://github.com/manugiu/Playwright-automation-portfolio/actions/workflows/playwright.yml)
 
 A modern end-to-end testing framework built with Playwright and TypeScript, demonstrating professional test automation practices using the Page Object Model design pattern.
 
