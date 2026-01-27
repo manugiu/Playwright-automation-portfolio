@@ -15,11 +15,18 @@ A modern end-to-end testing framework built with Playwright and TypeScript, demo
 ```
 playwright-automation-portfolio/
 ├── pages/                  # Page Object Models
-│   ├── LoginPage.ts
-│   └── InventoryPage.ts
+│   ├── AuthPage.ts
+│   └── CartPage.ts
+|   ├── CheckoutPage.ts
+│   └── HomePage.ts
+│   ├── HomePage.ts
+│   └── PaymentPage.ts
+|   ├── ProductsPage.ts
+│   └── RegisterPage.ts
 ├── tests/                  # Test Files
-│   ├── login.spec.ts      # UI Tests
-│   └── api.spec.ts        # API Tests
+│   ├── complete-checkout.spec.ts      # UI Tests
+│   └── products.spec.ts        # API Tests
+│   └── user-auth.spec.ts        # API Tests
 ├── .github/workflows/      # CI/CD Configuration
 │   └── playwright.yml
 ├── playwright.config.ts    # Playwright Configuration
@@ -87,13 +94,14 @@ npx playwright show-report
 
 ### ✅ UI Tests (login.spec.ts)
 - **Successful Login** - Valid user authentication
-- **Failed Login** - Invalid credentials validation
-- **Locked User** - Locked account error handling
+- **Register User** - Valid user register
+- **Add product to the cart**
+- **Remove product from the cart**
+- **Valid product search**
+- **Invalid product search**
+- **Brose by category**
+- **Complete Checkout**
 
-### 🔌 API Tests (api.spec.ts)
-- **GET Request** - Fetch user data and validate response structure
-- **Status Code Validation** - Verify HTTP responses
-- **JSON Schema Validation** - Ensure correct data types and properties
 
 ## ⭐ Key Features
 
