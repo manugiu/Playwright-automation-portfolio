@@ -25,8 +25,8 @@ playwright-automation-portfolio/
 │   └── RegisterPage.ts
 ├── tests/                  # Test Files
 │   ├── complete-checkout.spec.ts      # UI Tests
-│   └── products.spec.ts        # API Tests
-│   └── user-auth.spec.ts        # API Tests
+│   └── products.spec.ts        
+│   └── user-auth.spec.ts       
 ├── .github/workflows/      # CI/CD Configuration
 │   └── playwright.yml
 ├── playwright.config.ts    # Playwright Configuration
