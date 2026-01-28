@@ -11,6 +11,10 @@ A modern end-to-end testing framework built with Playwright and TypeScript, demo
 - **Page Object Model** - Design Pattern for Maintainable Tests
 - **GitHub Actions** - CI/CD Pipeline
 
+## 🌐 Application Under Test
+
+This framework tests **[Automation Exercise](https://automationexercise.com/)** - a full-featured e-commerce demo application designed for test automation practice.
+
 ## 📁 Project Structure
 ```
 playwright-automation-portfolio/
@@ -19,7 +23,6 @@ playwright-automation-portfolio/
 │   └── CartPage.ts
 |   ├── CheckoutPage.ts
 │   └── HomePage.ts
-│   ├── HomePage.ts
 │   └── PaymentPage.ts
 |   ├── ProductsPage.ts
 │   └── RegisterPage.ts
@@ -65,7 +68,7 @@ npx playwright test
 
 ### Run Specific Test File:
 ```bash
-npx playwright test tests/login.spec.ts
+npx playwright test tests/user-auth.spec.ts
 ```
 
 ### Run with UI Mode (Interactive):
@@ -92,15 +95,19 @@ npx playwright show-report
 
 ## 🧪 Test Scenarios
 
-### ✅ UI Tests (login.spec.ts)
-- **Successful Login** - Valid user authentication
-- **Register User** - Valid user register
-- **Add product to the cart**
-- **Remove product from the cart**
-- **Valid product search**
-- **Invalid product search**
-- **Brose by category**
-- **Complete Checkout**
+### 🔐 User Authentication (user-auth.spec.ts)
+- **User Registration** - Complete signup with form validation
+- **User Login** - Authenticate with valid credentials
+
+### 🛒 Shopping & Cart (products.spec.ts)
+- **Add to Cart** - Add product and verify in cart
+- **Remove from Cart** - Remove product and verify empty cart
+- **Product Search** - Search with valid product name
+- **Search Edge Case** - No results for invalid search
+- **Browse by Category** - Navigate and filter products
+
+### 💳 Checkout Flow (complete-checkout.spec.ts)
+- **End-to-End Purchase** - Complete checkout with payment validation
 
 
 ## ⭐ Key Features
@@ -108,7 +115,6 @@ npx playwright show-report
 - ✨ **TypeScript** for type safety and better IDE support
 - 📄 **Page Object Model** for maintainable and reusable code
 - 🎯 **Positive & Negative Testing** covering success and error scenarios
-- 🔌 **API Testing** alongside UI tests
 - 🤖 **CI/CD Integration** with GitHub Actions
 - 🎭 **Multi-Browser Testing** (Chromium, Firefox, WebKit)
 - 📊 **HTML Reports** with screenshots and traces

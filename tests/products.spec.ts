@@ -49,14 +49,6 @@ test('should show no results for invalid search', async ({ page }) => {
   
 });
 
-test('should show no results for invalid search', async ({ page }) => {
-  const productName = 'Inexistent product'
-  const productsPage = new ProductsPage(page);
-  await productsPage.goTo()
-  await productsPage.searchProduct(productName)
-  await productsPage.verifyNoResults(productName)  
-  
-});
 
 test('should show products for category', async ({ page }) => {
   const homePage = new HomePage(page);
